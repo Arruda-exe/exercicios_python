@@ -21,4 +21,14 @@ def calculo_das_notas():
     else:    
         print("A turma foi reprovada, media da tumra:",media )
 
+
+while True: 
+    entrada = str (input("digite seu e-mail de acesso:"))
+    senha = int (input("digite sua senha de acesso:"))
+
+    if entrada == "professor@gmail.com" and senha == 1234:
+        print("acesso permitido")
+        break
+    else:
+        print("acesso negado")
 calculo_das_notas()
